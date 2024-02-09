@@ -1,0 +1,15 @@
+create table if not exists payment_entity_info_model(
+payment_key integer not null,
+swift_group_key varchar(255) null,
+group_parent_key varchar(255) null,
+inst_status varchar(255) null,
+cop_group_key varchar(255) null,
+ssi_group_key varchar(255) null,
+iban_key varchar(255) null,
+national_id varchar(255) null,
+remarks varchar(255) null,
+brp_key varchar(255) null,
+creation_date varchar(255) null,
+entity_state varchar(255) null,
+modified_date varchar(255) null,
+constraint payment_entity_info_model_pk primary key(payment_key));

@@ -1,0 +1,17 @@
+create table if not exists payment_entity_address_model(
+payment_key integer not null,
+country_code varchar(255) null,
+branch_info varchar(255) null,
+street_address1 varchar(255) null,
+street_address2 varchar(255) null,
+street_address3 varchar(255) null,
+street_address4 varchar(255) null,
+street_address5 varchar(255) null,
+city varchar(255) null,
+state varchar(255) null,
+landmark varchar(255) null,
+zip_code varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint payment_entity_address_model_pk primary key(payment_key));
